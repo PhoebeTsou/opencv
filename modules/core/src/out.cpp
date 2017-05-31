@@ -42,6 +42,11 @@
 //M*/
 
 #include "precomp.hpp"
+#include <stdio.h>
+
+#ifdef _MSC_VER
+#   define snprintf _snprintf
+#endif
 
 namespace cv
 {
